@@ -1674,7 +1674,6 @@ id bottom
 id bounce
 id btn_ChangWon
 id btn_JinJu
-id btn_add
 id buttonPanel
 id cache_measures
 id cancel_button
@@ -1733,6 +1732,7 @@ id easeIn
 id easeInOut
 id easeOut
 id edit_query
+id edittext
 id end
 id enterAlways
 id enterAlwaysCollapsed

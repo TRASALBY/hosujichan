@@ -10,6 +10,7 @@ import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -20,6 +21,7 @@ public class ShowActivity extends AppCompatActivity {
     private MainAdapter mainAdapter;
     private RecyclerView recyclerView;
     private LinearLayoutManager linearLayoutManager;
+    private EditText editT
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +33,8 @@ public class ShowActivity extends AppCompatActivity {
         recyclerView = (RecyclerView)findViewById(R.id.rv_All);
         linearLayoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(linearLayoutManager);
+        editText = (EditText)findViewById(R.id.edittext);
+        editText.addTextChangedListener(this);
 
         arrayList = new ArrayList<>();
         mainAdapter = new MainAdapter(arrayList);
@@ -41,13 +45,7 @@ public class ShowActivity extends AppCompatActivity {
         MainData mainData1 = new MainData(R.drawable.sunflower,"경남 서부 해바라기센터","성폭력, 가정폭력, 성매매관련의료, 심리상담, 수사및법률지원","경상남도진주시칠암동90 ");
         arrayList.add(mainData1);
         mainAdapter.notifyDataSetChanged();
-        Button btn_add = (Button)findViewById(R.id.btn_add);
-        btn_add.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
 
-            }
-        });
 
 
     }

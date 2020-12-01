@@ -7,6 +7,10 @@
     tools:context=".ShowActivity"
     android:orientation="vertical">
 
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_All"
@@ -14,10 +18,5 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:layout_margin="25dp"/>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/btn_add"
-        android:text="추가"
-        android:layout_weight="8"/>
+
 </LinearLayout>

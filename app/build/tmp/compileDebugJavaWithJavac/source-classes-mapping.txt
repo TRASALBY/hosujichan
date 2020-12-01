@@ -6,6 +6,7 @@ com/example/counseling/MainData.java
  com.example.counseling.MainData
 com/example/counseling/MainAdapter.java
  com.example.counseling.MainAdapter
+ com.example.counseling.MainAdapter$1
  com.example.counseling.MainAdapter$CustomViewHolder
 com/example/counseling/MainActivity.java
  com.example.counseling.MainActivity
@@ -13,4 +14,3 @@ com/example/counseling/MainActivity.java
  com.example.counseling.MainActivity$2
 com/example/counseling/ShowActivity.java
  com.example.counseling.ShowActivity
- com.example.counseling.ShowActivity$1

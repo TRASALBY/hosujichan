@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\ghtjd\\AndroidStudioProjects\\Counseling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_hyunwoo.png.flat",
-        "source": "C:\\Users\\ghtjd\\AndroidStudioProjects\\Counseling\\app\\src\\main\\res\\drawable-v24\\hyunwoo.png"
-    },
-    {
         "merged": "C:\\Users\\ghtjd\\AndroidStudioProjects\\Counseling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_sunflower.jpg.flat",
         "source": "C:\\Users\\ghtjd\\AndroidStudioProjects\\Counseling\\app\\src\\main\\res\\drawable-v24\\sunflower.jpg"
+    },
+    {
+        "merged": "C:\\Users\\ghtjd\\AndroidStudioProjects\\Counseling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_hyunwoo.png.flat",
+        "source": "C:\\Users\\ghtjd\\AndroidStudioProjects\\Counseling\\app\\src\\main\\res\\drawable-v24\\hyunwoo.png"
     },
     {
         "merged": "C:\\Users\\ghtjd\\AndroidStudioProjects\\Counseling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_dodream.JPG.flat",
